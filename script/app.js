@@ -1,6 +1,3 @@
-
-
-
 const navToggleIcon = document.querySelector('.nav__btn-toggle')
 const menu = document.querySelector('.nav-menu')
 

@@ -1,0 +1,540 @@
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1280px;
+    }
+
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1400px) {
+    .security__left {
+        width: 43%;
+    }
+
+    .security-content__item {
+        max-width: 25rem;
+    }
+
+    .article__right {
+        max-width: 59rem;
+    }
+
+    .article__left {
+        max-width: 48rem;
+
+    }
+
+    .browse {
+        margin-top: 11rem;
+    }
+
+    .footer__left {
+        max-width: 55rem;
+    }
+
+    .footer__right {
+        max-width: 50rem;
+        gap: 2rem;
+    }
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1200px) {
+    .header-right__card {
+        display: none;
+    }
+
+    .app-wallet {
+        height: 63rem;
+        top: 0;
+    }
+
+    .info-site__item-logo {
+        max-width: 10rem;
+    }
+
+    .info-site__item span {
+        font-size: 4.5rem;
+    }
+
+    .monopay__item p {
+        line-height: 1.3;
+    }
+
+    .monopay__item2 h3,
+    .monopay__item3 h3 {
+        font-size: 3.9rem;
+        line-height: normal;
+        padding-top: 11rem;
+    }
+
+    .security-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .security-content {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .security__left {
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .security-left__card2 {
+        position: static;
+    }
+
+    .download-app__wallet {
+        right: 1.5rem;
+        border-bottom-right-radius: 6rem;
+    }
+
+    .download__title {
+        font-size: 3.8rem;
+        line-height: 60.21px;
+    }
+
+    .article__right {
+        max-width: 45rem;
+    }
+
+    .article__left {
+        max-width: 40rem;
+    }
+
+    .article__left-item-title2 {
+        font-size: 3.3rem;
+    }
+
+    .browse {
+        margin-top: 10rem;
+    }
+
+    .browse span {
+        font-size: 1.8rem;
+    }
+
+    .none {
+        width: 23rem;
+    }
+
+    .footer__left {
+        max-width: 45rem;
+    }
+
+    .footer__right {
+        max-width: 45rem;
+        gap: 5rem;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 992px) {
+    .nav__logo {
+        gap: 5rem;
+    }
+
+    .nav-menu {
+        gap: 3rem;
+        margin-left: 4rem;
+    }
+
+    .header__title {
+        font-size: 7rem;
+        line-height: 8rem;
+    }
+
+    .header-bottom {
+        display: block;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-right {
+        width: 100%;
+    }
+
+    .app-wallet {
+        position: static;
+        margin: auto;
+        height: 65rem;
+    }
+
+    .monopay__item {
+        height: 350px;
+    }
+
+    .monopay__item-title {
+        font-size: 3.9rem;
+    }
+
+
+    .wage__wrapper {
+        display: block;
+    }
+
+    .wage-left {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .wage-right {
+        width: 100%;
+    }
+
+    .app-wallet2 {
+        margin: 3rem auto;
+    }
+
+    .wage-content {
+        justify-content: center;
+        text-align: start;
+    }
+
+    .download__wrapper {
+        display: block;
+        padding: 4rem 4rem 0;
+    }
+
+    .download-app__wallet {
+        position: static;
+        border-bottom-right-radius: 0;
+        margin: 2rem auto 0 auto;
+    }
+
+    .article__right {
+        max-width: 35rem;
+    }
+
+    .article__left {
+        max-width: 30rem;
+    }
+
+    .active__right-title {
+        font-size: 2.5rem;
+        padding: 3rem 0;
+        line-height: 43.34px;
+    }
+
+    .article__left h5 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    .article__right-caption {
+        line-height: inherit;
+    }
+
+    .browse {
+        margin-top: 4rem;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .footer__wrapper {
+        display: block;
+    }
+
+    .footer__left {
+        max-width: max-content;
+        margin-bottom: 4rem;
+    }
+
+    .footer__right {
+        max-width: max-content;
+        gap: 8rem;
+    }
+}
+
+
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 768px) {
+
+    .nav-menu,
+    .nav-link {
+        display: none;
+    }
+
+    .nav-link__mobile {
+        display: flex;
+    }
+
+
+    .nav-menu {
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: -220px;
+        position: fixed;
+        background: linear-gradient(63.68deg, #ADA785 0%, #D6D3C2 100%);
+        width: 22rem;
+        margin-left: 0;
+        z-index: 2;
+        padding: 3rem;
+        transition: all 200ms ease-in;
+    }
+
+    .nav-menu__item {
+        margin-bottom: 2rem;
+        color: black;
+    }
+
+    .nav__btn-toggle {
+        display: flex;
+    }
+
+    .menu--open {
+        left: 0;
+    }
+
+    .info-site__item {
+        justify-content: space-evenly;
+    }
+
+    .wage-content__item {
+        max-width: 23rem;
+    }
+
+    .security-left__card2 {
+        display: none;
+    }
+
+    .security-content__item-wrapper {
+        gap: 0.5rem;
+    }
+
+    .work__item-caption {
+        font-size: 1.4rem;
+    }
+
+    .active__wrapper {
+        display: block;
+    }
+
+    .article__right {
+        max-width: max-content;
+    }
+
+    .article__right img {
+        width: 70%;
+    }
+
+    .browse {
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+
+    .article__left {
+        display: flex;
+        margin-top: 6rem;
+        justify-content: space-between;
+        max-width: max-content;
+        gap: 4rem;
+    }
+
+    .article__left-item2 {
+        margin-top: 0;
+    }
+
+    .article__left h5 {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+    .customer__title {
+        font-size: 4rem;
+    }
+
+    .wage-content__item {
+        max-width: 80%;
+    }
+
+    .security-content__item-wrapper {
+        gap: 0.5rem;
+    }
+
+    .security-content__item p {
+        width: 100%;
+    }
+
+    .work__title {
+        font-size: 4.4rem;
+    }
+
+    .download-app__wallet {
+        display: none;
+    }
+
+    .download__app {
+        flex-direction: column;
+    }
+
+    .download__content p,
+    .download__title {
+        text-align: center;
+    }
+
+    .download__wrapper {
+        padding: 2rem 3rem 0;
+    }
+
+    .download__title {
+        font-size: 2.8rem;
+        line-height: 45.21px;
+    }
+
+    .download__content p {
+        padding: 3rem 0 2rem 0;
+    }
+
+    .article__left {
+        display: block;
+        padding: 0 6rem 6rem 1px;
+    }
+
+    .article__left h5 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .article__left-item2 {
+        margin-top: 3rem;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width:450px) {
+    .header__title {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .header-section__title {
+        font-size: 1.6rem;
+    }
+
+    .header-section__title {
+        font-size: 3.5rem;
+    }
+
+    .header-bottom__link {
+        margin: 2rem auto
+    }
+
+    .customer__title {
+        font-size: 4rem;
+    }
+
+    .wage-left__title {
+        font-size: 3.9rem;
+    }
+
+    .app-wallet2 {
+        display: none;
+    }
+
+
+    .article__right img {
+        width: 100%;
+    }
+
+    .browse {
+        position: static;
+        margin-top: 2.5rem;
+    }
+
+    .article__left {
+        padding: 0;
+    }
+
+    .article__left h5 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .footer__right {
+        gap: 3rem;
+    }
+
+    .copy-right {
+        position: static;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .app-wallet {
+        display: none;
+    }
+
+    .info-site__item3 span {
+        margin-right: 0;
+    }
+
+    .info-site__item-logo {
+        margin-right: 0
+    }
+
+    .customers__wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    }
+
+    .download__wrapper {
+        padding: 2rem 1rem 0;
+    }
+
+    .download__title {
+        font-size: 2.2rem;
+        line-height: 31.21px;
+    }
+
+    .footer__right {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer__menu {
+        margin-bottom: 3rem;
+    }
+
+    .footer__download-app {
+        gap: 1.5rem;
+    }
+
+    .security-left__card {
+        display: none;
+    }
+}
